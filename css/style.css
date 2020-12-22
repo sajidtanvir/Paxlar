@@ -1,0 +1,466 @@
+/* font-family: 'Montserrat', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+.top-header{
+  background-color: #efefef;
+  padding: 10px 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+.top-header p{
+  font-size: 14px;
+  margin: 0;
+  color: #7f7f7f;
+  
+}
+.top-header ul{
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.top-header ul li{
+
+}
+.top-header ul li a{
+   color: #7f7f7f;
+   text-transform: uppercase;
+   font-size: 14px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #161616;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.btn-primary, input[type="submit"] {
+    color: #fff;
+    background-color: #f78f2f;
+    border-color: #f78f2f;
+    border-radius: 50px;
+    color: #fff !important;
+    font-size: 14px !important;
+    font-weight: 600;
+    padding: 8px 25px;
+
+}
+.navbar {
+    padding: 0;
+    padding: 20px 0;
+}
+.btn-primary:hover {
+    background-color: #c46711;
+    border-color: #c46711;
+}
+.banner{
+    background-image: url(../image/body-image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+}
+.banner .row{
+    min-height: 85vh;
+}
+.banner h1{
+
+    font-size: 50px;
+    text-transform: capitalize;
+    font-weight: 650;
+    color: #fff;
+}
+.banner ul{
+
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0px;
+    color: #fff;
+}
+.banner ul li{
+
+}
+.banner ul li h5{
+
+    font-weight: 700;
+}
+.banner ul li h6{
+    
+    text-transform: capitalize;
+}
+.btn-transparent, input[type="submit"]{
+    background-color: transparent;
+    border: 1px solid #fb8f2c;
+    margin-left: 15px;
+}
+.verify-item{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    
+    box-shadow: 0px 0px 1px 0px #848586;
+    border-radius: 5px;
+}
+.verify-item:hover{
+    background-image: url(../image/bitcoin.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.verify-item i{
+
+    font-size: 70px;
+    color: #f78f2f;
+    position: relative;
+}
+.verify-item:hover i{
+    color: #fff;
+}
+.verify-item h3{
+
+    font-size: 19px;
+    padding: 20px 0px;
+    margin: 0;
+    position: relative;
+}
+.verify-item:hover h3{
+    color: #fff;
+}
+.verify-item p{
+    
+    color: #545454;
+    font-size: 14px;
+    margin: 0;
+    position: relative;
+}
+.verify-item:hover p{
+    color: #fff;
+}
+.before{
+   position: relative;
+   padding: 30px; 
+}
+.before::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    border-radius: 5px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ddb112+0,fd7911+100 */
+background: rgb(221,177,18); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(221,177,18,1) 0%, rgba(253,121,17,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(221,177,18,1) 0%,rgba(253,121,17,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(221,177,18,1) 0%,rgba(253,121,17,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ddb112', endColorstr='#fd7911',GradientType=0 ); /* IE6-9 */
+
+    transition: .4s all ease-in-out;
+    opacity: 0;
+}
+.before:hover::before{
+    opacity: .8;
+    height: 100%;
+}
+.services{
+    font-family: 'Montserrat', sans-serif;
+}
+.services h2{
+
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #2b2b2b;
+    font-size: 24px;
+}
+.services span{
+
+    height: 5px;
+    width: 0px;
+    background: #ec7e2a;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+    transition: .2s all ease-in-out;
+}
+.services:hover span{
+    width: 50px;
+
+}
+
+.row h3{
+    color: #2b2b2b;
+    margin: 0;
+    padding: 15px 0;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.row p{
+    color: #424242;
+}
+.btn-view {
+    color: #2b2b2b !important;
+    margin: auto;
+    text-transform: uppercase;
+    border-color: #ff9b1a;
+    
+}
+.btn-view:hover{
+    background-color: #f18f34;
+    border-color: #f18f34;
+    color: #fff !important;
+}
+.simple-step{
+  background-image: url(../image/iphone-background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+}
+.step-img{
+    text-align: end;
+    position: absolute;
+    bottom: 0;
+    right: 60px;
+}
+.step-img img{
+    width: 80%;
+}
+.simple-step-content{
+
+}
+.simple-step-content h3{
+    color: #fff;
+    font-size: 27px;
+    text-transform: capitalize;
+}
+
+.simple-step-content span{
+    display: inline-block;
+    height: 3px;
+    width: 50px;
+    background-color: #ff9b1a;
+    
+}
+.rotate-box{
+
+}
+.rotate-box ul{
+    list-style: none;
+    display: flex;
+    
+    align-items: center;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.rotate-box ul li{
+    color: #fff;
+    margin-right: 25px;
+}
+.rotate-box ul li span{
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    border: 3px solid #ff9b1a;
+    border-radius: 5px;
+    transform: rotate(45deg);
+
+  
+}
+.rotate-box ul li h5{
+    color: #fff;
+}
+.rotate-box ul li p{
+    color: #fff;
+}
+.transactions{
+    background-color: #ff9b1a;
+    font-family: 'Montserrat', sans-serif;
+    padding: 30px 0;
+
+
+}
+.transactions h2{
+   color: #fff;
+   
+}
+.transactions p{
+    color: #fff;
+    text-transform: uppercase;
+}
+.left-top, .left-middle, .left-bottom, .right-top, .right-middle, .right-bottom{
+    color: #f85554;
+    position: relative;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    
+}
+.left-top::before, .right-bottom::before {
+   position: absolute;
+   content: '';
+   left: 0;
+   top: 0;
+   height: 100%;
+    width: 100%;
+    border: 1px solid #f85554;
+    border-radius: 5px;
+    transform: rotate(45deg);
+}
+.left-middle::before, .right-middle::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 100%;
+     width: 100%;
+     border: 1px solid #77d37b;
+     border-radius: 5px;
+     transform: rotate(45deg);
+ }
+ .left-bottom::before, .right-top::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 100%;
+     width: 100%;
+     border: 1px solid #77d2d6;
+     border-radius: 5px;
+     transform: rotate(45deg);
+ }
+.circle-img{
+    position: relative;
+}
+.left-top{
+
+    position: absolute;
+top: -15px;
+left: 30%;
+
+}
+.left-middle{
+
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-25%, -50%);
+    
+}
+.left-bottom{
+
+    position: absolute;
+    top: 90%;
+    left: 30%;
+}
+.right-top{
+
+    position: absolute;
+top: -15px;
+right: 28%;
+}
+.right-middle{
+
+    position: absolute;
+    top: 50%;
+    right: 21%;
+    transform: translate(-23%, -50%);
+}
+.right-bottom{
+
+    position: absolute;
+    top: 90%;
+    right: 28%;
+}
+.left-top-text, .left-middle-text,.left-bottom-text, .right-top-text, .right-middle-text, .right-bottom-text{
+        position: absolute;
+        top: 42px;
+        left: -35px;
+        display: block ruby;
+}
+.left-top-text h6, .left-middle-text h6, .left-bottom-text h6, .right-top-text h6, .right-middle-text h6, .right-bottom-text h6{
+    color: #252525;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+.left-middle-text{
+    right: -29px
+}
+.left-middle i, .right-middle{
+    color: #77d37b;
+}
+.left-bottom-text{
+    right: -34px
+}
+.left-bottom i, .right-top i{
+    color: #77d2d6;
+}
+.right-top-text{
+
+}
+.right-middle-text{
+    left: -42px;
+}
+.right-bottom-text{
+
+}
+.man-image{
+
+}
+.man-image img{
+
+}
+.man-image h4{
+    margin: 0;
+    margin-top: 0px;
+color: #1e1e1e;
+margin-top: 30px;
+}
+.man-image p{
+    margin: 0;
+    color: #fba057;
+    padding-top: 5px;
+    text-transform: uppercase;
+    font-size: 13px;
+} 
+.contact{
+    background-image: url(../image/form-img.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+input[type="submit"]{
+    padding: 8px 40px;
+    transition: .2s all ease-in-out;
+}
+input[type="submit"]:hover{
+    background-color: #f18f34;
+    border-color: #f18f34;
+    
+
+}
+.form-group textarea{
+    background-color: transparent;
+
+}
+.form-group input{
+  background-color: transparent;
+}
+.form-group input::placeholder{
+    color: #fff;
+}
+.form-group textarea::placeholder{
+    color: #fff;
+}
+.form-control:focus {
+    color: transparent;
+    background-color: transparent;
+    border-color: #fff;
+    outline: none;
+    box-shadow: none;
+}
